@@ -26,7 +26,6 @@ public class PauseMenuScript : MonoBehaviour
     }
     private void Start()
     {
-        Debug.Log(isPaused);
         Time.timeScale = isPaused ? 0f : 1f;
         Cursor.visible = isPaused;
         Cursor.lockState = isPaused ? CursorLockMode.None : CursorLockMode.Locked;
