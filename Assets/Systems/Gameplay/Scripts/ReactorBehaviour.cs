@@ -7,7 +7,7 @@ public class ReactorBehaviour : MonoBehaviour
     public GameObject _controlRodPrefab;
 
     [Header("Control Rod Settings")]
-    [SerializeField] private Vector2 _minMaxLaunchForce = new Vector2(5f, 10f);
+    [SerializeField] private Vector2 _minMaxLaunchForce = new Vector2(8f, 12f);
 
     private void Start()
     {        
