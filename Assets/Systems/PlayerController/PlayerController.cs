@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour {
         float speedY = Input.GetAxis("Vertical") * targetMovingSpeed;
         Vector2 targetVelocity = new Vector2(speedX, speedY);
         
-        rb.velocity = transform.rotation * new Vector3(targetVelocity.x, rb.velocity.y, targetVelocity.y);
+        rb.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.y);
     }
     private void HandleJumps()
     {

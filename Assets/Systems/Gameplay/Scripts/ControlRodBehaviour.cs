@@ -61,10 +61,10 @@ public class ControlRodBehaviour : MonoBehaviour
     }
     private void TurnControlRodForward()
     {
-        if (!hasCollided && rb.velocity.sqrMagnitude > 0.01f) //If there was no collision, and the rod is still moving.        
+        if (!hasCollided && rb.linearVelocity.sqrMagnitude > 0.01f) //If there was no collision, and the rod is still moving.        
         {
             //Match the rotaion of the rod to the direction it moves towards. Otherwise it looks weird.
-            transform.rotation = Quaternion.LookRotation(rb.velocity.normalized); 
+            transform.rotation = Quaternion.LookRotation(rb.linearVelocity.normalized); 
         }            
     }
     #endregion
