@@ -28,7 +28,76 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8667087967042961734}
+  - {fileID: 861126585441868976}
+  - {fileID: 2550812434356334473}
+  - {fileID: 9024569482292625007}
+  - {fileID: 7578942657502714705}
+  - {fileID: 8677421301482052530}
+  - {fileID: 3130995167486946314}
+  - {fileID: 5649694196427099336}
+  - {fileID: 1499599553734631646}
+  - {fileID: 2392653663162740779}
+  - {fileID: 7454921207439125975}
+  - {fileID: 1567687175818987838}
+  - {fileID: 4224361353005230451}
+  - {fileID: 2334898732447644041}
+  - {fileID: 5767607895985359456}
+  - {fileID: 2591655171102506736}
+  - {fileID: 1734058970230415792}
+  - {fileID: 6288373626208209431}
+  - {fileID: 2095373044907164111}
+  - {fileID: 2083233344929985733}
+  - {fileID: 4123106633108297635}
+  - {fileID: 1564972754104306871}
+  - {fileID: 6133115862057281153}
+  - {fileID: 7906510190608117670}
+  - {fileID: 4823248835808216263}
+  - {fileID: 5050171943914391949}
+  - {fileID: 7194725463990056854}
+  - {fileID: 8223807187000867833}
+  - {fileID: 936999005430962300}
+  - {fileID: 7427923318376450225}
+  - {fileID: 463674043144136075}
+  - {fileID: 4021471462984739434}
+  - {fileID: 2886656593100787751}
+  - {fileID: 117099370886867790}
+  - {fileID: 2551468025263909396}
+  - {fileID: 6766804681847183623}
+  - {fileID: 2578304992474335800}
+  - {fileID: 2999440329317897307}
+  - {fileID: 718213986615817852}
+  - {fileID: 6251825164070606508}
+  - {fileID: 3351498781795924218}
+  - {fileID: 7854925876710790940}
+  - {fileID: 3929422011791753094}
+  - {fileID: 8668723909806140282}
+  - {fileID: 646240002802743473}
+  - {fileID: 6573596608708685602}
+  - {fileID: 6835112247870974126}
+  - {fileID: 1415595971689066568}
+  - {fileID: 431674179864030168}
+  - {fileID: 1807437624810708755}
+  - {fileID: 4211470331659568363}
+  - {fileID: 2301393161827732340}
+  - {fileID: 4246383620603320426}
+  - {fileID: 6083968658665591004}
+  - {fileID: 9111294476088810511}
+  - {fileID: 4936729322259462471}
+  - {fileID: 4528083618424423939}
+  - {fileID: 6675801956145797549}
+  - {fileID: 8251776959804349190}
+  - {fileID: 1711345553277863669}
+  - {fileID: 7070771268023333740}
+  - {fileID: 557892897155995221}
+  - {fileID: 4631627402707506995}
+  - {fileID: 6508831643399494734}
+  - {fileID: 8416796607159138498}
+  - {fileID: 3697541652523972920}
+  - {fileID: 4124727858296417817}
+  - {fileID: 4562736958790081481}
+  - {fileID: 1565006442681027352}
   m_Father: {fileID: 5328522009907797180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7075234089887603581
@@ -64,6 +133,1804 @@ Transform:
   - {fileID: 2947547536683029924}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &503209537164602701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.20999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &5649694196427099336 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 503209537164602701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &638002673161860790
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.252
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4631627402707506995 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 638002673161860790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &753196091037263170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.20899998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4823248835808216263 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 753196091037263170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &873335153736341698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4936729322259462471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 873335153736341698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1047557745370081288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.621
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &5050171943914391949 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 1047557745370081288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1353471861437070795
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6508831643399494734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 1353471861437070795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1415933283876490919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6573596608708685602 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 1415933283876490919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1457277430081976360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.252
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6675801956145797549 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 1457277430081976360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1546135011112319106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0009999946
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6766804681847183623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 1546135011112319106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1605338620373371179
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2484
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6835112247870974126 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 1605338620373371179}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1771836920362789861
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &5767607895985359456 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 1771836920362789861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2085982304467431769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6083968658665591004 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 2085982304467431769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2126060735961990916
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.626
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6133115862057281153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 2126060735961990916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2188341795024385833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2484
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6251825164070606508 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 2188341795024385833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2294785112069647250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.20999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &6288373626208209431 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 2294785112069647250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2427911517930683092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.626
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &7578942657502714705 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 2427911517930683092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2676806931861245475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &7906510190608117670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 2676806931861245475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2710658932175124121
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &7854925876710790940 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 2710658932175124121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3079355594768306921
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &7070771268023333740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3079355594768306921}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3117810531856209427
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &7194725463990056854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3117810531856209427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3425326713393654068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.20999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &7427923318376450225 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3425326713393654068}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3452378340910435410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.209
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &7454921207439125975 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3452378340910435410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3517596012933368575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &8668723909806140282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3517596012933368575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3520638489773203651
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2484
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &8667087967042961734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3520638489773203651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3526345080068225591
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.20999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &8677421301482052530 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3526345080068225591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3864592851702030314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.039
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.626
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &9024569482292625007 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3864592851702030314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3958011603552042378
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &9111294476088810511 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 3958011603552042378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4186183765366897283
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &8251776959804349190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 4186183765366897283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4232444155691457148
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &8223807187000867833 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 4232444155691457148}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4308396656183740437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,4 +2000,2484 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 594fb3bf9d5026240bb0b853c4c6debc, type: 3}
   m_PrefabInstance: {fileID: 4308396656183740437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4346549182433696071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &8416796607159138498 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 4346549182433696071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4641974555473287476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.832
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &646240002802743473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 4641974555473287476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4714115733899220985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &718213986615817852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 4714115733899220985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4859149292905905461
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &861126585441868976 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 4859149292905905461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5016059155707607545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.626
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &936999005430962300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 5016059155707607545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5277226839389326027
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &117099370886867790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 5277226839389326027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5575986275243493981
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.839
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &431674179864030168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 5575986275243493981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5688945238995600398
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.20899999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &463674043144136075 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 5688945238995600398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5702247870802245584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.839
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &557892897155995221 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 5702247870802245584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5804262416824827957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.626
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &1734058970230415792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 5804262416824827957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5875282618946420374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &1807437624810708755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 5875282618946420374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6085872901215196480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.621
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2083233344929985733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6085872901215196480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6163244495468601418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.20899999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2095373044907164111 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6163244495468601418}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6299494071938722545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.839
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2301393161827732340 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6299494071938722545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6573366019918090701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &1415595971689066568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6573366019918090701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6652899947961680219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.209
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &1499599553734631646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6652899947961680219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6711622974054869661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &1565006442681027352 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6711622974054869661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6713630050850843954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &1564972754104306871 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6713630050850843954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6727805781237246139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.621
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &1567687175818987838 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6727805781237246139}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6855489285685323632
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &1711345553277863669 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6855489285685323632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6958917363112128930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2886656593100787751 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 6958917363112128930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7006575786332141022
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.832
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2999440329317897307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7006575786332141022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7201250427978993039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.039
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.20999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &3130995167486946314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7201250427978993039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7358484845142399359
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &3351498781795924218 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7358484845142399359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7564717647340394508
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.621
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2334898732447644041 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7564717647340394508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7613358587079643566
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.039
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.209
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2392653663162740779 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7613358587079643566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7735924268526726077
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2578304992474335800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7735924268526726077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7740302640013713269
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2591655171102506736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7740302640013713269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7779086817605192593
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2551468025263909396 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7779086817605192593}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7780587367162842636
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.626
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &2550812434356334473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 7780587367162842636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8187973732992356252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.839
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.832
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4124727858296417817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 8187973732992356252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8188752740863538726
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4123106633108297635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 8188752740863538726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8215567223030581494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.039
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.621
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4224361353005230451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 8215567223030581494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8246746225769871855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.252
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4246383620603320426 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 8246746225769871855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8281655086539416942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4211470331659568363 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 8281655086539416942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8523766631730734982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.839
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4528083618424423939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 8523766631730734982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8632949199193635404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.832
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4562736958790081481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 8632949199193635404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8920560017911945405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.832
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &3697541652523972920 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 8920560017911945405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9084992006331424259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0009999946
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &3929422011791753094 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 9084992006331424259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9174780655719156719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2947547536683029924}
+    m_Modifications:
+    - target: {fileID: 1954435315728988132, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_Name
+      value: Control Rod Static (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.621
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+--- !u!4 &4021471462984739434 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5232193860948943237, guid: 6a7a58766e548c844bb849e111959b9c, type: 3}
+  m_PrefabInstance: {fileID: 9174780655719156719}
   m_PrefabAsset: {fileID: 0}
