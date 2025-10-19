@@ -4,9 +4,14 @@ public class MainMenuScript : MonoBehaviour
 {
     [Header("Heat amounts")]
     public string playSceneName="Reactor Chamber";
+    public string menuSceneName = "MainMenu";
     public void PlayGame ()
     {
         SceneManager.LoadScene(playSceneName);
+    }
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(menuSceneName);
     }
 
     public void QuitGame()
