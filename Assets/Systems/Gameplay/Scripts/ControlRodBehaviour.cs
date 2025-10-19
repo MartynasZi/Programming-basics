@@ -14,6 +14,7 @@ public class ControlRodBehaviour : MonoBehaviour
     //Internal Variables
     private bool hasCollided;
     private Rigidbody rb;
+    public int ControlRodID;
 
 
     #region Init
