@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ReactorBehaviour : MonoBehaviour
 {
@@ -148,5 +149,10 @@ public class ReactorBehaviour : MonoBehaviour
 
         for (int i = 0; i < rods.Count; i++)
             rods[i].gameObject.SetActive(false);
+
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("MainMenu");
     }
+
+
 }
