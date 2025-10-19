@@ -1,20 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
-public class HealthBarScript : MonoBehaviour
+public class OverheatBarScript : MonoBehaviour
 {
     public Slider slider;
     public Gradient gradient;
     public Image fill;
-    public void SetMaxHealth(int health)
+    public void SetMaxHeat(int heatAmount)
     {
-        slider.maxValue= health;
-        slider.value = health;
+        slider.maxValue= heatAmount;
+        slider.value = heatAmount;
         fill.color = gradient.Evaluate(1f);
         
     }
-    public void SetCurrentHealth(int health)
+    public void SetCurrentHeat(int heatAmount)
     {
-        slider.value = health;
+        slider.value = heatAmount;
         fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 }
