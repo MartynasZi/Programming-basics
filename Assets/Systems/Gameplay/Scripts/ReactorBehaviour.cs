@@ -151,7 +151,7 @@ public class ReactorBehaviour : MonoBehaviour
             rods[i].gameObject.SetActive(false);
 
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("LoseScreen");
     }
 
 

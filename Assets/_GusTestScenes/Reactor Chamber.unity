@@ -263,6 +263,9 @@ MonoBehaviour:
   Reactor: {fileID: 2036146428}
   PowerUpManager: {fileID: 1991773774}
   PlayerController: {fileID: 546219977}
+  Tutorial: {fileID: 3344554792388435477}
+  StartKey: 101
+  TotalScore: 0
 --- !u!4 &72603485
 Transform:
   m_ObjectHideFlags: 0
@@ -7720,6 +7723,9 @@ MonoBehaviour:
   Overheat: 0
   _RodsInReactor: 0
   rods: []
+  Score: 0
+  _scorePerSecond: 10
+  _scorePerRod: 250
 --- !u!1001 &2047400246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11671,6 +11677,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73d99ad7f39ad7b4f8f66c4f0190a94b, type: 3}
+--- !u!1 &3344554792388435477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 297445437028735253, guid: 73d99ad7f39ad7b4f8f66c4f0190a94b, type: 3}
+  m_PrefabInstance: {fileID: 3344554792388435476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3394796139225937927
 GameObject:
   m_ObjectHideFlags: 0
