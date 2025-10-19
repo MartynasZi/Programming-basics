@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System.Linq;
+using UnityEngine;
 
 public class ReactorBehaviour : MonoBehaviour
 {
@@ -14,32 +14,30 @@ public class ReactorBehaviour : MonoBehaviour
     public List<StaticControlRod> rods;
 
 
-
     private void Start()
-    {        
+    {
         InitRods();
-        
         StartCoroutine(RepeatEveryTwoSeconds());
     }
 
     private void Update()
-    {        
+    {
+        // Quick & dirty visual update
+        for (int i = 0; i < rods.Count; i++)
+        {
+            rods[i].gameObject.SetActive(i < _RodsInReactor);
+        }
     }
-
-
 
 
 
 
     public void LaunchRod()
     {
-        GameObject newControlRod;
-        ControlRodBehaviour controlRodBehaviour;
-        
-        newControlRod = Instantiate(_controlRodPrefab, transform);                          //Make the newControlRod the one we are instantiating.
-        controlRodBehaviour = newControlRod.GetComponent<ControlRodBehaviour>();            //Get the ControlRod component.
-        
-        controlRodBehaviour.LaunchControlRod(_minMaxLaunchForce.x, _minMaxLaunchForce.y);   //Finally launch the rod with the random values our controller dictates.
+        GameObject newControlRod = Instantiate(_controlRodPrefab, transform);
+        ControlRodBehaviour controlRodBehaviour = newControlRod.GetComponent<ControlRodBehaviour>();
+        controlRodBehaviour.LaunchControlRod(_minMaxLaunchForce.x, _minMaxLaunchForce.y);
+        _RodsInReactor--;
     }
 
     public void ReturnRod()
@@ -47,36 +45,12 @@ public class ReactorBehaviour : MonoBehaviour
         _RodsInReactor++;
     }
 
-
-
-
-
-
     private void InitRods()
     {
-        int RodID = 1;
-
-        foreach (StaticControlRod rod in gameObject.GetComponentsInChildren<StaticControlRod>())
-        {
-            rod._ControlRodID = RodID;
-            rod._InReactor = true;
-
-            _RodsInReactor = RodID;
-            RodID++;
-        }
-            rods = GetComponentsInChildren<StaticControlRod>().ToList();
+        rods = GetComponentsInChildren<StaticControlRod>().ToList();
+        _RodsInReactor = rods.Count;
     }
 
-
-
-
-
-
-
-
-
-
-    //Testing ATM
     IEnumerator RepeatEveryTwoSeconds()
     {
         while (true)
@@ -84,7 +58,6 @@ public class ReactorBehaviour : MonoBehaviour
             if (_RodsInReactor > 0)
             {
                 LaunchRod();
-                _RodsInReactor -= 1;
             }
             yield return new WaitForSeconds(2f);
         }
