@@ -34,6 +34,14 @@ public class ForwardRayInteractor : MonoBehaviour
                 }
             }
         }
+
+        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hhit, range, hitMask, QueryTriggerInteraction.Collide))
+        {
+            if (hhit.collider.CompareTag("ControlRod") && !gM.isHoldingRod)
+            {
+          
+            }
+        }
     }
 
     void PickupRod(RaycastHit hit)
