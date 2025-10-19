@@ -21,7 +21,7 @@ public class ForwardRayInteractor : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, range, hitMask, QueryTriggerInteraction.Ignore))
+            if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, range, hitMask, QueryTriggerInteraction.Collide))
             {
                 if (hit.collider.CompareTag("ControlRod") && !gM.isHoldingRod)
                 {

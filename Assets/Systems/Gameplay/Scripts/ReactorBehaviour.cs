@@ -66,6 +66,8 @@ public class ReactorBehaviour : MonoBehaviour
         }
 
         _timeSinceStart += Time.deltaTime;
+
+        FindAnyObjectByType<PlayerHealthScript>().TakeDamage(Overheat);
     }
 
     IEnumerator ReactorLoop()
@@ -97,6 +99,9 @@ public class ReactorBehaviour : MonoBehaviour
     {
         if (_isMeltdown) return;
         _RodsInReactor = Mathf.Min(_RodsInReactor + 1, rods.Count);
+        
+        Overheat -=  0.1f;
+        if (Overheat < 0) { Overheat = 0; }
     }
 
     private void InitRods()
