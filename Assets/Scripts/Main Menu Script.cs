@@ -2,9 +2,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MainMenuScript : MonoBehaviour
 {
+    [Header("Heat amounts")]
+    public string playSceneName="Reactor Chamber";
     public void PlayGame ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(playSceneName);
     }
 
     public void QuitGame()
