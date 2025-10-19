@@ -22,13 +22,25 @@ public class AlarmSystem : MonoBehaviour
 
     private void Update()
     {
-        float t = (Mathf.Sin((Time.time + _timeOffset) * speed) + 1f) / 2f;
-        float intensity = Mathf.Lerp(minIntensity, maxIntensity, t);
 
-        foreach (var l in _alarmLights)
+        if (GetComponentInParent<ReactorBehaviour>().Overheat > 0.5f)
         {
-            if (l != null)
-                l.intensity = intensity;
+            float t = (Mathf.Sin((Time.time + _timeOffset) * speed) + 1f) / 2f;
+            float intensity = Mathf.Lerp(minIntensity, maxIntensity, t);
+
+            foreach (var l in _alarmLights)
+            {
+                if (l != null)
+                    l.intensity = intensity;
+            }
+        }
+        else
+        {
+            foreach (var l in _alarmLights)
+            {
+                if (l != null)
+                    l.intensity = 0;
+            }
         }
     }
 }
