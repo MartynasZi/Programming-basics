@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6686560882812401898}
   m_Layer: 0
   m_Name: Control Rod
-  m_TagString: Untagged
+  m_TagString: ControlRod
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,6 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2417df4559edbe44fa597de75991b8fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ControlRodID: 0
 --- !u!1001 &2065143985946787703
 PrefabInstance:
   m_ObjectHideFlags: 0

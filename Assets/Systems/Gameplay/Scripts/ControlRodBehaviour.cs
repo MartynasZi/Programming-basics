@@ -14,6 +14,7 @@ public class ControlRodBehaviour : MonoBehaviour
     //Internal Variables
     private bool hasCollided;
     private Rigidbody rb;
+    public int ControlRodID;
 
 
     #region Init
@@ -38,6 +39,9 @@ public class ControlRodBehaviour : MonoBehaviour
     #region Unity Internal
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Reactor"))
+            return; // skip this collision
+
         hasCollided = true;
     }
     #endregion
