@@ -2,28 +2,28 @@ using UnityEngine;
 
 public class PlayerHealthScript : MonoBehaviour
 {
-    [Header("Health amounts")]
-    public int maxHealth = 100;
-    public int currentHealth;
+    [Header("Heat amounts")]
+    public int maxHeat= 100;
+    public int currentHeat;
 
-    public HealthBarScript healthBar;
+    public OverheatBarScript healthBar;
     void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        currentHeat = 0;
+        healthBar.SetMaxHeat(maxHeat);
+        healthBar.SetCurrentHeat(currentHeat);
     }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            TakeDamage(20);
+            TakeDamage(5);
         }    
     }
-    void TakeDamage(int damage)
+    void TakeDamage(int heat)
     {
         
-        currentHealth -= damage;
-        Debug.Log(currentHealth);
-        healthBar.SetCurrentHealth(currentHealth);
+        currentHeat += heat;
+        healthBar.SetCurrentHeat(currentHeat);
     }
 }
