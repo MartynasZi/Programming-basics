@@ -23,7 +23,7 @@ public class ForwardRayInteractor : MonoBehaviour
         {
             if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, range, hitMask, QueryTriggerInteraction.Ignore))
             {
-                if (hit.collider.CompareTag("ControlRod"))
+                if (hit.collider.CompareTag("ControlRod") && !gM.isHoldingRod)
                 {
                     PickupRod(hit);
                 }

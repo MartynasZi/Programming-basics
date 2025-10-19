@@ -1,4 +1,3 @@
-using TMPro.EditorUtilities;
 using UnityEngine;
 
 public class GameplayManager : MonoBehaviour
@@ -30,6 +29,7 @@ public class GameplayManager : MonoBehaviour
         { 
         isHoldingRod = false;
         RodObjDummy.SetActive(isHoldingRod);
+            FindAnyObjectByType<ReactorBehaviour>().ReturnRod();
         }
     }
 }
