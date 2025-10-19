@@ -12,6 +12,7 @@ public class PlayerHealthScript : MonoBehaviour
         currentHeat = 0;
         healthBar.SetMaxHeat(maxHeat);
         healthBar.SetCurrentHeat(currentHeat);
+        healthBar = FindAnyObjectByType<OverheatBarScript>();
     }
     void Update()
     {
@@ -20,10 +21,10 @@ public class PlayerHealthScript : MonoBehaviour
             TakeDamage(5);
         }    
     }
-    void TakeDamage(int heat)
+    public void TakeDamage(float heat)
     {
         
-        currentHeat += heat;
-        healthBar.SetCurrentHeat(currentHeat);
+        //currentHeat += heat;
+        healthBar.SetCurrentHeat(heat);
     }
 }

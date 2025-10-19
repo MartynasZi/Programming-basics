@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9213875323766573801}
   - component: {fileID: 8429956752380925565}
   - component: {fileID: 6686560882812401898}
+  - component: {fileID: 5433388979097014038}
   m_Layer: 0
   m_Name: Control Rod
   m_TagString: ControlRod
@@ -213,6 +214,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControlRodID: 0
+--- !u!65 &5433388979097014038
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954435315728988132}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1.6755143}
+  m_Center: {x: 0, y: 0, z: -0.33775717}
 --- !u!1001 &2065143985946787703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -264,7 +286,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: b73efeb9e7432a144bde99c476dfb255, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5c26b21fc64203f4b987e29b07535bf1, type: 2}
+      objectReference: {fileID: 2100000, guid: fd4573189a5d96c42a0d30bb3c11747f, type: 2}
     - target: {fileID: -7511558181221131132, guid: b73efeb9e7432a144bde99c476dfb255, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 

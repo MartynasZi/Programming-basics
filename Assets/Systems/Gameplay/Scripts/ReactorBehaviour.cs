@@ -42,8 +42,10 @@ public class ReactorBehaviour : MonoBehaviour
         for (int i = 0; i < rods.Count; i++)
             rods[i].gameObject.SetActive(i < _RodsInReactor);
 
+        if (rods.Count == 0) return;
+
         // Determine missing rods
-        int rodsMissing = rods.Count - _RodsInReactor;
+        int rodsMissing = Mathf.Clamp(rods.Count - _RodsInReactor, 0, rods.Count);
 
         // If all rods are gone, treat as maximum instability
         if (_RodsInReactor <= 0)
@@ -66,6 +68,10 @@ public class ReactorBehaviour : MonoBehaviour
         }
 
         _timeSinceStart += Time.deltaTime;
+
+        // Dirty damage hookup
+        var ph = FindAnyObjectByType<PlayerHealthScript>();
+        if (ph != null) ph.TakeDamage(Overheat);
     }
 
     IEnumerator ReactorLoop()
@@ -97,6 +103,9 @@ public class ReactorBehaviour : MonoBehaviour
     {
         if (_isMeltdown) return;
         _RodsInReactor = Mathf.Min(_RodsInReactor + 1, rods.Count);
+
+        Overheat -= 0.1f;
+        if (Overheat < 0) Overheat = 0;
     }
 
     private void InitRods()
@@ -107,9 +116,29 @@ public class ReactorBehaviour : MonoBehaviour
 
     private void TriggerMeltdown(string reason)
     {
+        if (_isMeltdown) return;
         _isMeltdown = true;
-        Overheat = 1f; // ensure full overheat value
+
+        // Stop spawning, then eject remaining rods in a burst
         StopAllCoroutines();
+        StartCoroutine(EjectRemainingRodsBurst(0.05f)); // tweak delay for effect
+
+        Overheat = 1f; // ensure full overheat value
         Debug.LogWarning($"!!! MELTDOWN !!! — {reason}");
+    }
+
+    private IEnumerator EjectRemainingRodsBurst(float delayBetween = 0.05f)
+    {
+        // Launch as many times as there are rods left
+        while (_RodsInReactor > 0)
+        {
+            LaunchRod();
+            _RodsInReactor--;
+            yield return new WaitForSeconds(delayBetween);
+        }
+
+        // Final visual cleanup: hide all static rods
+        for (int i = 0; i < rods.Count; i++)
+            rods[i].gameObject.SetActive(false);
     }
 }

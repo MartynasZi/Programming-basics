@@ -12,7 +12,7 @@ public class OverheatBarScript : MonoBehaviour
         fill.color = gradient.Evaluate(1f);
         
     }
-    public void SetCurrentHeat(int heatAmount)
+    public void SetCurrentHeat(float heatAmount)
     {
         slider.value = heatAmount;
         fill.color = gradient.Evaluate(slider.normalizedValue);

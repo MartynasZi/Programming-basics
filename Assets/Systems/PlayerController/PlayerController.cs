@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.TextCore.Text;
 
 public class PlayerController : MonoBehaviour {
@@ -15,11 +16,13 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] private bool _CanRun = true;
     [SerializeField] private float _RunningSpeed = 9;
     [SerializeField] private KeyCode runningKey = KeyCode.LeftShift;
+    [SerializeField] private float speedBoostMultiplier = 2;
     [Space(10)]
     [Header("Jumping")]
     [SerializeField] private bool _CanJump = true;
     [SerializeField] private float _JumpingStrength = 2;
     [SerializeField] private float _GroundedThreshold = 0.1f;
+    [SerializeField] private float _JumpBoostMultiplier = 2;
     [Space(10)]
     [Header("Camera Settings")]
     [SerializeField] private float _CameraSensitivity = 2;
@@ -31,9 +34,11 @@ public class PlayerController : MonoBehaviour {
     
     //Private Movement Variables:
     private bool _IsRunning;
+    private bool _HasSpeedBoost;
 
     //Private Jumping Variables:
     private bool _IsGrounded;
+    private bool _HasJumpBoost;
 
     //Private Camera Variables:
     private Camera cameraObject;
@@ -74,9 +79,18 @@ public class PlayerController : MonoBehaviour {
         float speedX = Input.GetAxis("Horizontal") * targetMovingSpeed;
         float speedY = Input.GetAxis("Vertical") * targetMovingSpeed;
         Vector2 targetVelocity = new Vector2(speedX, speedY);
+        targetVelocity = _HasSpeedBoost ? targetVelocity * speedBoostMultiplier : targetVelocity;
         
         rb.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, rb.linearVelocity.y, targetVelocity.y);
     }
+    
+    public IEnumerator HandleSpeedBoost(int duration)
+    {
+        _HasSpeedBoost = true;
+        yield return new WaitForSeconds(duration);
+        _HasSpeedBoost = false;
+    }
+
     private void HandleJumps()
     {
         if (_CanJump) 
@@ -86,10 +100,18 @@ public class PlayerController : MonoBehaviour {
 
             if (Input.GetButtonDown("Jump") && _IsGrounded) //If we press Jump and we are grounded, we Jump!
             {
-                rb.AddForce(Vector3.up * 100 * _JumpingStrength);
+                rb.AddForce(_HasJumpBoost ?  Vector3.up * 100 * _JumpingStrength * _JumpBoostMultiplier : Vector3.up * 100 * _JumpingStrength);
             }
         }
     }
+
+    public IEnumerator HandleJumpBoost(int duration)
+    {
+        _HasJumpBoost = true;   
+        yield return new WaitForSeconds(duration);
+        _HasJumpBoost = false;  
+    }
+
     private void HandleCamera()
     {
         Vector2 mouseDelta = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
