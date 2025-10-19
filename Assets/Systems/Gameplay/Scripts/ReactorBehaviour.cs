@@ -17,19 +17,30 @@ public class ReactorBehaviour : MonoBehaviour
     [SerializeField] private float _difficultyRampTime = 60f;
 
     [Header("Instability & Overheat Settings")]
-    [SerializeField] private float _instabilityMultiplier = 0.25f; // how strongly missing rods affect heat
-    [Range(0f, 1f)] public float Overheat = 0f; // 0 = stable, 1 = meltdown
+    [SerializeField] private float _instabilityMultiplier = 0.25f;
+    [Range(0f, 1f)] public float Overheat = 0f;
 
     [Header("Runtime Info")]
     public int _RodsInReactor;
     public List<StaticControlRod> rods;
 
+    // --- SCORE SYSTEM ---
+    [Header("Score System")]
+    public float Score;                 // total score
+    private int _rodsReturnedTotal;     // total rods brought back
+    private float _timeAlive;           // time survived
+    [SerializeField] private float _scorePerSecond = 10f;
+    [SerializeField] private int _scorePerRod = 250;
+
     private float _timeSinceStart;
     private bool _isMeltdown = false;
+
+    private GameManager gm;
 
     private void Start()
     {
         InitRods();
+        gm = FindAnyObjectByType<GameManager>();
         StartCoroutine(ReactorLoop());
     }
 
@@ -38,40 +49,37 @@ public class ReactorBehaviour : MonoBehaviour
         if (_isMeltdown)
             return;
 
+        // --- Score grows by survival time ---
+        _timeAlive += Time.deltaTime;
+        Score += _scorePerSecond * Time.deltaTime;
+
         // Update rod visuals
         for (int i = 0; i < rods.Count; i++)
             rods[i].gameObject.SetActive(i < _RodsInReactor);
 
         if (rods.Count == 0) return;
 
-        // Determine missing rods
         int rodsMissing = Mathf.Clamp(rods.Count - _RodsInReactor, 0, rods.Count);
-
-        // If all rods are gone, treat as maximum instability
         if (_RodsInReactor <= 0)
             rodsMissing = rods.Count;
 
-        // Progressive overheating: the more rods missing, the faster we heat
         float missingRatio = (float)rodsMissing / rods.Count;
         Overheat += missingRatio * _instabilityMultiplier * Time.deltaTime;
 
-        // Small cooling effect when fully stable
         if (rodsMissing == 0)
             Overheat -= 0.01f * Time.deltaTime;
 
         Overheat = Mathf.Clamp01(Overheat);
 
-        // Trigger meltdown only once Overheat reaches 1
         if (Overheat >= 1f)
-        {
             TriggerMeltdown("Reactor overheated!");
-        }
 
         _timeSinceStart += Time.deltaTime;
 
-        // Dirty damage hookup
         var ph = FindAnyObjectByType<PlayerHealthScript>();
         if (ph != null) ph.TakeDamage(Overheat);
+
+        gm.TotalScore = Score;
     }
 
     IEnumerator ReactorLoop()
@@ -84,7 +92,6 @@ public class ReactorBehaviour : MonoBehaviour
                 _RodsInReactor--;
             }
 
-            // Difficulty ramp: shorter intervals over time
             float t = Mathf.Clamp01(_timeSinceStart / _difficultyRampTime);
             float interval = Mathf.Lerp(_launchIntervalStart, _launchIntervalMin, t);
 
@@ -104,8 +111,11 @@ public class ReactorBehaviour : MonoBehaviour
         if (_isMeltdown) return;
         _RodsInReactor = Mathf.Min(_RodsInReactor + 1, rods.Count);
 
-        Overheat -= 0.1f;
-        if (Overheat < 0) Overheat = 0;
+        Overheat = Mathf.Max(0f, Overheat - 0.1f);
+
+        // --- Add score for successful return ---
+        _rodsReturnedTotal++;
+        Score += _scorePerRod;
     }
 
     private void InitRods()
@@ -119,17 +129,16 @@ public class ReactorBehaviour : MonoBehaviour
         if (_isMeltdown) return;
         _isMeltdown = true;
 
-        // Stop spawning, then eject remaining rods in a burst
         StopAllCoroutines();
-        StartCoroutine(EjectRemainingRodsBurst(0.05f)); // tweak delay for effect
+        StartCoroutine(EjectRemainingRodsBurst(0.05f));
 
-        Overheat = 1f; // ensure full overheat value
+        Overheat = 1f;
         Debug.LogWarning($"!!! MELTDOWN !!! — {reason}");
+        Debug.Log($"Final Score: {Mathf.RoundToInt(Score)} (Rods Returned: {_rodsReturnedTotal}, Time Alive: {_timeAlive:F1}s)");
     }
 
     private IEnumerator EjectRemainingRodsBurst(float delayBetween = 0.05f)
     {
-        // Launch as many times as there are rods left
         while (_RodsInReactor > 0)
         {
             LaunchRod();
@@ -137,7 +146,6 @@ public class ReactorBehaviour : MonoBehaviour
             yield return new WaitForSeconds(delayBetween);
         }
 
-        // Final visual cleanup: hide all static rods
         for (int i = 0; i < rods.Count; i++)
             rods[i].gameObject.SetActive(false);
     }
